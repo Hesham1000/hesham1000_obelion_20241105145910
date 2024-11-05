@@ -1,0 +1,135 @@
+.article-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .branding {
+  font-size: 24px;
+  color: #007bff;
+  margin: 0;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.navigation a {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+}
+
+.articles-list {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.article {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.headline {
+  font-size: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.headline:hover {
+  text-decoration: underline;
+}
+
+.snippet {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.read-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.subscription-form {
+  margin-top: 20px;
+}
+
+.subscription-form input[type="email"] {
+  padding: 10px;
+  font-size: 14px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+
+.subscription-form button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.subscription-form button:hover {
+  background-color: #218838;
+}
